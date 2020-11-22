@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
 
-ONT_IF='xx0'
-RG_IF='xx1'
-RG_ETHER_ADDR='xx:xx:xx:xx:xx:xx'
+ONT_IF='igb0'
+RG_IF='igb1'
+RG_ETHER_ADDR='E0:22:03:E2:20:EC'
 LOG=/var/log/pfatt.log
 
 getTimestamp(){
